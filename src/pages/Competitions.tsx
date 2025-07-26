@@ -225,31 +225,7 @@ useEffect(() => {
                   <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-200">
                     <h3 className="text-xl font-bold text-gray-900 mb-6">Competition Info</h3>
                     
-                    <div className="space-y-6">
-                      <div className="flex items-center space-x-3">
-                        <Calendar className="h-5 w-5 text-gray-500" />
-                        <div>
-                          <p className="text-sm text-gray-500">Deadline</p>
-                          <p className="font-semibold text-gray-900">{competition.deadline}</p>
-                        </div>
-                      </div>
-
-                      <div className="flex items-center space-x-3">
-                        <Users className="h-5 w-5 text-gray-500" />
-                        <div>
-                          <p className="text-sm text-gray-500">Participants</p>
-                          <p className="font-semibold text-gray-900">{competition.participants}</p>
-                        </div>
-                      </div>
-
-                      <div className="flex items-center space-x-3">
-                        <Award className="h-5 w-5 text-gray-500" />
-                        <div>
-                          <p className="text-sm text-gray-500">Prize Pool</p>
-                          <p className="font-semibold text-gray-900">{competition.prize}</p>
-                        </div>
-                      </div>
-                    </div>
+                    
 
                     <div className="mt-8 pt-6 border-t border-gray-200">
                       <h4 className="font-semibold text-gray-900 mb-3">Quick Navigation</h4>
