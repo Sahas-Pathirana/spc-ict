@@ -223,12 +223,12 @@ useEffect(() => {
                 {/* Sidebar Info */}
                 <div className="lg:col-span-1">
                   <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-200">
-                    <h3 className="text-xl font-bold text-gray-900 mb-6">Competition Info</h3>
+                    <h3 className="text-xl font-bold text-gray-900 mb-6">Quick Navigation</h3>
                     
                     
 
                     <div className="mt-8 pt-6 border-t border-gray-200">
-                      <h4 className="font-semibold text-gray-900 mb-3">Quick Navigation</h4>
+                      
                       <div className="space-y-2">
                         {competitions.map((comp, idx) => (
                           <button
