@@ -83,7 +83,7 @@ const Home = () => {
       <section className="relative overflow-hidden bg-black">
         <div className="w-full h-full fixed  z-0">
         <Aurora
-          colorStops={["00047", "#ffffff", "#feae17"]}
+          colorStops={["#2563eb", "#ffffff", "#feae17"]}
           blend={0.5}
           amplitude={1.0}
           speed={0.5}
